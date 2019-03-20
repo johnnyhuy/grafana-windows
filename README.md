@@ -24,4 +24,3 @@ docker run --rm -p 3000:3000 johnnyhuy/grafana-windows
 This project is licensed under the MIT license, see [LICENSE](https://github.com/johnnyhuy/grafana-windows/blob/master/LICENSE) for more information.
 
 - **dockersamples/aspnet-monitoring** is licensed under the [Apache License 2.0](https://github.com/dockersamples/aspnet-monitoring/blob/master/LICENSE)
-- 
