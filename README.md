@@ -2,7 +2,15 @@
 
 This is a repository with Grafana servers in Windows Docker containers.
 
-### Prerequisites
+## Usage
+
+Run the following command to get this container running!
+
+```bash
+docker run --rm -p 3000:3000 johnnyhuy/grafana-windows
+```
+
+## Prerequisites
 
 - Docker & Windows (duhh!)
 
