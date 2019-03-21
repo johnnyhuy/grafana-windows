@@ -4,10 +4,21 @@ This is a repository with Grafana servers in Windows Docker containers.
 
 ## Usage
 
-Run the following command to get this container running!
+Run the following command to get this container running! There is also support for previous Windows versions.
 
 ```bash
-docker run --rm -p 3000:3000 johnnyhuy/grafana-windows
+# Windows Server 1809
+docker run --rm -p 3000:3000 johnnyhuy/grafana-windows:latest
+
+# OR
+
+# Windows Server 1803
+docker run --rm -p 3000:3000 johnnyhuy/grafana-windows:1803
+
+# OR
+
+# Windows Server 2016
+docker run --rm -p 3000:3000 johnnyhuy/grafana-windows:win2016
 ```
 
 ## Prerequisites
