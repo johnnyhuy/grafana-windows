@@ -1,6 +1,6 @@
 # escape=`
 
-ARG tag=1803
+ARG tag=1809
 
 FROM mcr.microsoft.com/windows/servercore:$tag
 
