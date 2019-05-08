@@ -6,8 +6,8 @@ FROM mcr.microsoft.com/windows/servercore:$tag AS servercore
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
-ARG GRAFANA_VERSION="6.0.0"
-ARG GRAFANA_SHA256="8b74a18b8f467c46abcf96fbce2d8575d5a1a0e3afce6f9242c55224dd17e039"
+ARG GRAFANA_VERSION="6.1.6"
+ARG GRAFANA_SHA256="178e6fb92dfb560fa4f2871bccb93a37283a35cc8ce40a3b6962ccb92e645f33"
 
 RUN [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; `
     Invoke-WebRequest "https://dl.grafana.com/oss/release/grafana-$($env:GRAFANA_VERSION).windows-amd64.zip" -OutFile grafana.zip -UseBasicParsing; `
