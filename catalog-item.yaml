@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: grafana-windows
+  title: Grafana Windows
+  description: Docker image for Grafana on Windows
+  tags:
+    - grafana
+    - windows
+spec:
+  type: library
+  lifecycle: experimental
+  owner: johnnyhuy
