@@ -5,7 +5,8 @@ metadata:
   title: Grafana Windows
   description: Docker image for Grafana on Windows
   tags:
-    - grafana
+    - monitoring
+    - docker
     - windows
 spec:
   type: library
